@@ -9,17 +9,17 @@ class Footer extends HTMLElement {
       <footer class="px-5 pt-5">
         <div class="row">
           <div class="col-8">
-            <img src="../assets/logo.svg" style="width:150px;" class="mb-3"/>
+            <img src="./assets/logo.svg" style="width:150px;" class="mb-3"/>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="ovopedia.html" class="nav-link p-0 text-muted">Ovopedia</a></li>
-              <li class="nav-item mb-2"><a href="quemSomos.html" class="nav-link p-0 text-muted">Quem Somos</a></li>
-              <li class="nav-item mb-2"><a href="faleConosco.html" class="nav-link p-0 text-muted">Fale Conosco</a></li>
+              <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="./pages/ovopedia.html" class="nav-link p-0 text-muted">Ovopedia</a></li>
+              <li class="nav-item mb-2"><a href="./pages/quemSomos.html" class="nav-link p-0 text-muted">Quem Somos</a></li>
+              <li class="nav-item mb-2"><a href="./pages/faleConosco.html" class="nav-link p-0 text-muted">Fale Conosco</a></li>
             </ul>
           </div>
     
           <div class="col-4">
-            <form method="get" action="../file/LANCHES-RÁPIDOS-E-SAUDÁVEIS.pdf" target="_blank">
+            <form method="get" action="./file/LANCHES-RÁPIDOS-E-SAUDÁVEIS.pdf" target="_blank">
               <h5>Coloque seu email para baixar um ebook grátis!</h5>
               <p>Ebook com receitas e informações nutricionais.</p>
                 <div class="d-flex w-100 gap-2">
@@ -45,4 +45,4 @@ class Footer extends HTMLElement {
   }
 }
 
-window.customElements.define("footer-email", Footer);
+window.customElements.define("footer-index", Footer);
