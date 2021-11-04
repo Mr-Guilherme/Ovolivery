@@ -9,7 +9,7 @@ class Footer extends HTMLElement {
       <footer class="px-5 pt-5">
         <div class="row">
           <div class="col-8">
-            <img src="../assets/logo.svg" style="width:150px;" class="mb-3"/>
+            <img src="/assets/logo.svg" style="width:150px;" class="mb-3"/>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="/index.html" class="nav-link p-0 text-muted">Home</a></li>
               <li class="nav-item mb-2"><a href="/pages/ovopedia.html" class="nav-link p-0 text-muted">Ovopedia</a></li>
