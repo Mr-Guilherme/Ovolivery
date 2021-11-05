@@ -1,0 +1,150 @@
+main{
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell;
+   
+    font-size: 16px;
+}
+/* Paleta de cores - Ovolivery/UberOvo: 
+
+ #f4d62b - Amarelo mais claro 
+
+ #ffcc00 - Amarelo mais escuro 
+
+ #f65b15 - Laranja 
+
+ #2d2d2d - Grafite / cinza escuro 
+
+ #ffffff - Branco 
+
+ #58abd6 - Azul  */
+.padding{
+    padding: 8px;
+}
+
+#banner-wrapper {
+    background-color: #58ABD7;
+}
+
+#banner {
+    width: 65%;
+    /* height: 600px; */
+
+}
+
+#img {
+    width: 100%;
+    height: 600px;
+}
+
+.detalhe {
+    width: 100%;
+    height: 2px;
+    background-color: #f4d62b;
+    
+}
+
+#bg-missao {
+    background-color: #f65b1544  ;
+
+}
+
+#missao,
+#visao,
+#valores {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 50px;
+    height: 70px;
+    text-align: left;
+}
+
+#btn {
+    margin-top: 30px;
+    padding: 8px;
+}
+
+
+/* estilos para os depoimentos */
+.titulo {
+    background-color: #f65b15;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 30px;
+    padding: 4px;
+}
+
+.conteudoCard {
+    background-color: white;
+    height: 220px;
+    border: 1px solid rgba(202, 200, 200);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#avaliacao {
+    font-size: 50px;
+    text-align: center;
+}
+
+#avaliacao1 {
+    margin-left: 220px;
+    font-style: italic;
+
+}
+#avaliacao3 {
+    text-align: right;
+    font-style: italic;
+
+}
+#porcentagem {
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 24px;
+
+
+}
+
+#quemSomos {
+    text-align: center;
+    
+}
+
+  
+.carousel-item{
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.detalheBorda{
+    border-right: solid 1px #f4d62b;
+}
+h1,h3{
+    font-weight: bold;
+    padding: 8px;
+}
+
+@media(max-width: 600px) {
+    #banner, .img-fluid{
+        display: none;
+    }
+}
+#carouselExampleControls{
+    text-align: center;
+    margin-top: 60px;
+}
+#depoimentos1{
+    background-color: #2d2d2d11 ;
+}
