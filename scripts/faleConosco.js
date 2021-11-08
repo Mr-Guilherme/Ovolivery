@@ -17,7 +17,7 @@ function consultaCEP() {
         let cepProcurado = cepDigitado.value.replace("-", "");
         console.log(cepProcurado);
 
-        fetch(`http://viacep.com.br/ws/${cepProcurado}/json/`)
+        fetch(`https://viacep.com.br/ws/${cepProcurado}/json/`)
             .then(response => {
                 response.json()
                     .then(data => console.log(apresentaDados(data)));
