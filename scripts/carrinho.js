@@ -67,7 +67,7 @@ class checkoutForm extends APIs {
 
         this.formDOM.checkoutButton.setAttribute("data-bs-toggle", "modal");
         this.formDOM.checkoutButton.setAttribute("data-bs-target", "#modalDone");
-        this.formDOM.checkoutButton.click();
+        // this.formDOM.checkoutButton.click();
       }
     });
   }
