@@ -6,7 +6,13 @@
     <link rel="shortcut icon" href="../assets/ovo.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="../styles/ovopedia.css">
+
     <script src="../components/header.js"></script>
     <script src="../components/footer.js"></script>
     <title>Ovolivery | Ovopedia</title>
@@ -15,12 +21,427 @@
     <header></header>
     
     <main>
-      <h1>Ovopedia</h1>
+
+        <div class="container-fluid mt-5 border-2 border-bottom border-warning">
+
+            <div class="text-center ">
+
+                <h1 class="display-3">Ovopédia</h1>
+
+                <h1>
+                    <small class="text-muted">Meus Produtos</small>
+                </h1>
+
+            </div>
+
+        </div>
+
+        <!--------------------------CARDS--------------------------->
+
+        <div class="container mt-5">
+            <div class="row mb-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-cagefree2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Cage Free</h5>
+                            <p class="card-text text-center">10 unidades - R$20,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Cage Free', 10, 20.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Informações
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-caipira.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Caipira</h5>
+                            <p class="card-text text-center">10 unidades - R$18,90 </p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Caipira', 10, 18.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1">Informações
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-granja.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo de Granja</h5>
+                            <p class="card-text text-center">10 unidades - R$17,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo de Granja', 10, 17.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2">Informações
+                                </button>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-organico.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Orgânico</h5>
+                            <p class="card-text text-center">10 unidades - R$19,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Orgânico', 10, 19.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal3">Informações
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!----------------------LINHA 2 CARDS----------------------->
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovos-cagefree-jumbo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Cage Free Jumbo</h5>
+                            <p class="card-text text-center">10 unidades - R$24,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Cage Free Jumbo', 10, 24.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal0">Informações
+                                </button>
+
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-caipira-jumbo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Caipira Jumbo</h5>
+                            <p class="card-text text-center">10 unidades - R$22,90 </p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Caipira Jumbo', 10, 22.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal0">Informações
+                                </button>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-granja-jumbo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo de Granja Jumbo</h5>
+                            <p class="card-text text-center">10 unidades - R$21,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo de Granja Jumbo', 10, 21.90)">Comprar</button>
+                                <button type="button" class="btn-warning btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal0">Informações
+                                </button>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 17rem;">
+                        <img src="../assets/img/ovo-organico-jumbo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ovo Orgânico Jumbo</h5>
+                            <p class="card-text text-center">10 unidades - R$23,90</p>
+                            <p class="text-center">
+                                <button class="btn-warning btnOvo" onclick="collectData('Ovo Orgânico Jumbo', 10, 23.90)">Comprar</button>
+                                <button type="button btn-warning"   class="btnOvo" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal0">Informações
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-------------------------DIV SELEÇÃO-------------------------->
+
+        <div class="container-fluid bg-warning mt-5 p-5" id="">
+
+            <!--<img src="img/erol-ahmed-leOh1CzRZVQ-unsplash.jpg"> -->
+
+            <div class="text-center">
+
+                <h1 class="display-5">Protocolo de Boas Práticas na Produção de Ovos:</h1>
+
+                <p>
+                <h4>A coleta de ovos, quando não automatizada, deve ser     realizada, no mínimo quatro vezes ao dia, sendo
+                    assim, após cada coleta os ovos devem ser levados à sala de seleção e classificação, o mais rápido
+                    possível, para evitar que estes permaneçam no aviário desnecessariamente. Os ovos também são
+                    inspecionados e classificados de acordo com a legislação vigente. <strong>Decreto 56.585 (7/1965) –
+                        Classificação de Ovo: (GRUPO, CLASSE, TIPO)</strong>. Depois de separados por peso, embalados e
+                    identificados nossos ovos são armazenados em salas limpas e arejadas e em condições adequadas
+                    enquanto aguardam sua comercialização.</h4>
+                </p>
+
+            </div>
+
+        </div>
+
+        <!--------------------------TABELA------------------------>
+
+        <div class="container mt-5">
+            <div class="table-responsive">
+                <p>
+                <h3 class="display-5 text-center">Tabela: Consumo <i>Per Capita</i> e a Produção de Ovos no Brasil</h3>
+                </p>
+                <table class="table table-hover text-center">
+                    <thead>
+
+                        <tr class="text-dark bg-warning">
+                            <th>Ano</th>
+                            <th>Consumo(Unid/Hab)</th>
+                            <th>Produção(Unidades)</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="table-active">2010</td>
+                            <td>128</td>
+                            <td>28.851.931.850</td>
+                        </tr>
+                        <tr>
+                            <td class="table-active">2011</td>
+                            <td>162</td>
+                            <td>31.554.292.134</td>
+                        </tr>
+                        <tr>
+                            <td class="table-active">2012</td>
+                            <td>161</td>
+                            <td>31.775.108.157</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2013</td>
+                            <td>168</td>
+                            <td>34.120.752.431</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2014</td>
+                            <td>182</td>
+                            <td>37.245.133.102</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2015</td>
+                            <td>191</td>
+                            <td>39.511.378.639</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2016</td>
+                            <td>190</td>
+                            <td>39.181.839.294</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2017</td>
+                            <td>192</td>
+                            <td>39.923.119.357</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2018</td>
+                            <td>212</td>
+                            <td>44.487.496.586</td>
+                        </tr>
+
+                        <tr>
+
+                            <td class="table-active">2019</td>
+                            <td>230</td>
+                            <td>49.055.709.215</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-active">2020</td>
+                            <td>251</td>
+                            <td>53.533.542.389</td>
+                        </tr>
+
+                    </tbody>
+                    <caption>FONTE: ABPA, 2020.</caption>
+
+
+                </table>
+            </div>
+
+
+
+        </div>
+
+        <!------------------MODAL 1 OVO DE CAGE FREE---------------------->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Descrição</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        Na produção desse tipo de ovo as aves costumam ser mantidas em ambientes totalmente controlados, contudo, elas não ficam engaioladas. Ao invés disso elas são criadas em galpões onde possuem mais liberdade de exercer seu comportamento natural. Sendo assim podemos considerar que a produção Cage Free é um dos modelos que mais promovem o bem estar dos animais.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!---------------------MODAL 2 OVO CAIPIRA--------------------->
+
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Descrição</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        O chamado ovo caipira provém de um modelo de criação bastante simplificado que se assemelha a visão de sítio, onde as aves são criadas em área aberta. Logo, pode se considerar que esse tipo de modelo proporciona uma maior qualidade de vida aos animais. Assim como no modelo convencional há uma preocupação com a alimentação que deve ser rica em vegetais e minerais. Vale ressaltar que os ovos caipiras podem ter a casca de diferentes colorações não somente avermelhada como a maioria das pessoas pensam. A mudança de tonalidade da casca do ovo vai depender diretamente da raça da galinha, contudo, os ovos caipiras costumam ter uma gema com uma cor mais intensa.
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!---------------------MODAL 3 OVO GRANJA--------------------->
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Descrição</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+
+                        Também conhecido como ovo comum, o ovo de granja é denominado dessa maneira porque as aves
+                        passam por um modelo convencional de criação, ou seja, elas são expostas a um ambiente com
+                        luminosidade e temperatura devidamente controlados. Além disso as galinhas costumam receber uma
+                        alimentação balanceada principalmente a base de soja e milho. O modelo de criação convencional é
+                        muito utilizado pois permite um maior controle de propagação de doenças e consequentemente
+                        permite também manter o padrão de qualidade dos ovos.
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------MODAL 4 CORGÂNICO-------------------->
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Descrição</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+
+                        No modo de produção Orgânico as aves são criadas de uma maneira semelhante ao modelo de produção Caipira, porém, recebem uma alimentação diferenciada baseada em grãos de origem orgânica e em consequência esses ovos costumam ter um preço acima dos comumente encontrados em ovos de granja, por exemplo. O presente modelo de produção está mais alinhado a sustentabilidade tendo em vista que ele dá maior atenção ao meio ambiente e ao equilíbrio dos ecossistemas.
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-------------------------MODAL 5 JUMBO---------------------->
+
+        <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Descrição</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+
+                        Diferentemente dos outros ovos, o Jumbo não é classificação que leva em conta o modelo de produção adotado e sim o peso da unidade, logo, esse tipo de ovo é classificado dessa maneira caso apresente um peso mínimo de 66g. Sendo assim é possível observar que esse tipo de ovo não tem relação direta com o modo de criação das aves e por isso pode ser Orgânico, de Granja, Caipira ou Cage free.
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <a href="https://api.whatsapp.com/send?phone=5511959687493&text=sua%20mensagem" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="zap"
+                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg>
+          </a>
+
     </main>
     
     <footer-email></footer-email>
 
     <script src="../scripts/ovopedia.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+    <!------------------------V LIBRAS------------------------->
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+      </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
   </body>
 </html>

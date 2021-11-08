@@ -5,10 +5,10 @@ class Footer extends HTMLElement {
     this.shadowRoot.innerHTML = `
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
-    <div class="container-fluid bg-warning bg-gradient">
+    <div class="container-fluid bg-warning bg-gradient px-0 px-lg-5">
       <footer class="px-5 pt-5">
         <div class="row">
-          <div class="col-8">
+          <div class="col-12 text-center mb-4 col-md-5 mb-md-0 text-md-start col-lg-7">
             <img src="../assets/logo.svg" style="width:150px;" class="mb-3"/>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Home</a></li>
@@ -18,12 +18,11 @@ class Footer extends HTMLElement {
             </ul>
           </div>
     
-          <div class="col-4">
+          <div class="col-12 text-center col-md-7 text-md-start col-lg-5">
             <form method="get" action="../file/LANCHES-RÁPIDOS-E-SAUDÁVEIS.pdf" target="_blank">
               <h5>Coloque seu email para baixar um ebook grátis!</h5>
               <p>Ebook com receitas e informações nutricionais.</p>
                 <div class="d-flex w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
                   <input required id="newsletter1" type="email" class="form-control" placeholder="Endereço de Email">
                   <button type="submit" class="btn btn-primary" type="button">Baixar</button>
                 </div>
