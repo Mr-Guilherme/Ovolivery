@@ -1,0 +1,211 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40%{
+    -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);}
+    80%{
+      -webkit-transform: translateY(-10px);
+       transform: translateY(-10px);}
+  }
+  *{
+    margin: 0;
+  }
+     .carousel-inner, .carousel-item, .carousel-item  img { 
+    height: 100%; 
+   }  
+  
+   /* //estilização dos textos do carrossel */
+  #slide1-linha1 {
+    color:#ffcc00;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: "Roboto";
+  
+  }
+  #slide1-linha2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: "Roboto";
+    
+  }
+  #slide2-linha1{
+    position: absolute;
+    z-index: 800;
+    top: 20%;
+    left: 10%;
+    font-weight: bolder;
+    font-size: 20px;
+    color:#ffcc00;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: "Roboto";
+    
+  }
+  #slide2-linha2{
+    position: absolute;
+    z-index: 800;
+    top: 40%;
+    left: 10%;
+    font-size: 16px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-family: "Roboto";
+    
+  }
+  
+  #slide3-linha1{
+    color:#ffcc00;
+    font-weight: bolder;
+    font-size: 16px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: "Roboto";}
+  
+  
+  #slide3-linha2 {
+    font-weight: bold;
+    font-size: 10px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: "Roboto";
+    
+  }
+  /* //posição do texto no slide2 do carrossel */
+  .posicaoSlide {
+    position: relative;
+    left: 14rem;
+    bottom: 8.75rem;
+  
+  }
+  /* Posição do gif */
+  .gif { 
+    margin-right: 7rem;
+  } 
+  
+  /* Estilização dos titulos e subtitulos do site */
+  .titulo {
+    text-align: center;
+    line-height: 3.5rem;
+    font-family: "Roboto";
+    
+  }
+  .subTitulo {
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* Estização da cor de fundo  */
+  .artigo1{
+    background-color: #f65b15;
+   
+  }
+  /* Estilização da cor de fundo com o gradiente */
+  .colA{
+    
+    background-image: linear-gradient(to right, #2ea2cc, #2ea2cc, white);
+  }
+  .colB{
+    background-image: linear-gradient(to right, #7ad03a, #7ad03a, white);
+  }
+  .colC {
+    background-image: linear-gradient(to right, #a46497, #a46497, white);
+    
+  }
+   .textoSuperior {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #ffcc00;
+  
+  } 
+  .textoTitulo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: "Roboto"; 
+  }
+  .textoInferior {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-family: "Roboto";
+  }
+  
+  /* Estização do botão e a inclusão dos efeitos */
+  .btn {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+  }
+  .efeitos {
+    border:none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 0.7rem;  
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    background-color: #ffcc00;
+  }
+  .efeitos:hover {
+    animation: bounce 1s ;
+  }
+
+  #zap{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+    color: rgb(66, 231, 66);    
+   
+}
+  
+  /* Media Queries para tornar o site responsivo */
+  @media (min-width: 768px) {
+    /* .carousel-inner, .carousel-item, .carousel-item  img { 
+      height: 85vh !important; 
+     }     */
+  #slide1-linha1 {
+    font-size: 40px !important;
+  }
+  #slide1-linha2 {
+    font-size: 24px !important;
+  }
+  #slide2-linha1{
+  font-size: 50px !important;
+  }
+  #slide2-linha2{
+  font-size: 30px !important;  
+  }
+  
+  #slide3-linha1{
+    font-size: 40px !important;
+  }
+  #slide3-linha2 {
+    font-size: 24px !important;
+  
+  }
+  .gif {
+    position: relative;
+    right: 17.5rem;
+    top: 9.375rem;
+  } 
+  }
+
+  @media (min-width: 1440px) {
+    .carousel-inner, .carousel-item, .carousel-item  img { 
+      height: 65vh !important; 
+     }  
+  }
+  
+  
+  
+  
+  
